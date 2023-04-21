@@ -1,2 +1,2 @@
 # Quiz-website
-This file contains all the codes of quiz application
+A quiz website is a platform designed to provide users with a fun and engaging way to test their knowledge on a variety of topics. It typically involves presenting a series of multiple-choice questions that users must answer within a set time limit. The website may offer different types of quizzes, including educational quizzes, personality quizzes, and trivia quizzes. Users can track their progress, view their scores, and compare their performance against others.The website can build with html,css and javascript
