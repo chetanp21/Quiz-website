@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+.main {
+    background-image: url(./quiz.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: darkslateblue; */
+}
+
+.inner-div {
+    background-image: url(./quiz3.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 500px;
+    box-shadow: 0px 0px 5px grey;
+    display: flex;
+    /* background-color: white; */
+    border-radius: 10px;
+    overflow: hidden;
+    flex-direction: column;
+    color: black;
+    font-size: 24px;
+    padding: 20px 20px;
+}
+
+.question {
+    text-align: justify;
+    padding: 15px;
+    width: 95%;
+}
+
+#submit {
+    cursor: pointer;
+    padding: 10px 30px;
+    outline: none;
+    font-size: 20px;
+    font-weight: 300;
+    display: block;
+    margin: auto;
+    border: none;
+    text-transform: uppercase;
+    color: aliceblue;
+    background-color: darkblue;
+    margin-top: 40px;
+}
+
+#submit:hover {
+    background-color: dodgerblue
+}
+
+/* .Col-box {
+    box-shadow: 0px -1px 1px grey;
+    width: 100%;
+} */
+#showscore{
+    background-color: blanchedalmond;
+    margin-top: 30px;
+    padding: 30px 40px;
+    box-shadow: 0px 10px 10px -0.7rem rgba(0, 0, 0, 0.4);
+}
+.scoreArea h3{
+    font-size: 30px;
+    text-align: center;
+}
+
+.scoreArea{
+    display: none;
+}
+
